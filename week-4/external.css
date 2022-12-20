@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-font-family: 'Poppins', sans-serif;
+
 h1 {
     background-color: green;
     color: white;
     padding: 10px;
-    margin: 10px;s
-    font-family: 'Times New Roman', Times, serif;
-  }
+    margin: 10px; }
   p1{
     color: darksalmon;
-    margin: 10px;
-    font-family: 'Times New Roman', Times, serif;
-  }
+    margin: 10px; }
   table, th, td {
     color: brown;
     border: 1px solid;
