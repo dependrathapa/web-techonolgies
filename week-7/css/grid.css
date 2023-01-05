@@ -1,0 +1,41 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+ background-color: pink;
+ font-size:50px;
+ font-family: 'Times New Roman', Times, serif;
+ text-transform: uppercase;
+ letter-spacing: 150px;
+ text-shadow: 10px 10px chocolate;
+
+}
+.container{
+    width: 90%;
+    margin:50px auto;
+    border: 5px solid blue;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 150px 150px;
+   grid-row-gap:12px;
+   grid-column-gap:12px;
+}
+.grid1{
+    background-color: brown;
+}
+.grid2{
+    background-color:burlywood;
+}
+.grid3{
+    background-color: gold;
+}
+.grid4{
+     background-color: blueviolet;
+}
+.grid5{
+     background-color: brown;
+}
+.grid6{
+    background-color: green;
+}
