@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Selector</title>
+</head>
+<body>
+    <h1>DOM</h1>
+    <h1>Dom Selector</h1>
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius numquam iusto animi repellendus eos sit ratione? Id nesciunt expedita modi iusto nostrum dolores tempore libero rem non quasi. Iste, quia!</p>
+    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tenetur qui enim, ipsa voluptatum, maxime aliquam possimus labore officia laboriosam, ut nemo. Odit obcaecati qui odio commodi nisi. Numquam, tempora.</p>
+    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero in distinctio eos. Dolorem eligendi similique fugiat nisi facere doloremque aut cum est dolore accusantium repellendus ab, culpa consequuntur pariatur non.</p>
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iste ea labore tenetur adipisci quas consectetur qui illo recusandae nulla suscipit, a corporis soluta minus neque sed enim vitae vero!</p>
+
+</body>
+<script>
+    // document.querySelector("p").style.backgroundColor="red";
+    var select = document.querySelectorAll("p1");
+   for(var i=0; i<=select.length; i++){
+    select[i].innerHTML="bro Whats up??";
+    select[i].style.cssText="background-color:plum; color:pink font-size:30px";
+    
+}
+</script>
+</html>
