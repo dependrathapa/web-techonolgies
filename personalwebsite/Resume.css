@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Poppins:wght@200&display=swap');
+/* Style the header and navigation menu */
+header {
+    font-weight:bolder;
+     font-family: 'Poppins', sans-serif;
+     background-color:#7971EA;
+     color: #fff;
+     padding: 1em;
+   }
+   footer{
+     font-weight:bolder;
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+     background-color:#7971EA;
+     color: #fff;
+     padding: 1em;
+   }
+   nav {
+     display: flex;
+     justify-content: center;
+   }
+   nav ul {
+     display: flex;
+     list-style-type: none;
+   }
+   nav li {
+     margin: 0 1em;
+   }
+   nav a {
+     color: #fff;
+     text-decoration: none;
+   }
+* {
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  
+  /*body {
+    
+  }*/
+  
+  div {
+    border-radius: 55px;
+  }
+  
+  /* #header {
+    height: 40px;
+    width: 100%;
+    background-color: #ffcccc;
+    position: fixed;
+    z-index: 1;
+  } */
+  
+  #title {
+    margin-left: 3%;
+  }
+  
+  /* #footer {
+    height: 50px;
+    width: 100%;
+    background-color: #7971EA;
+    clear: both;
+    position: relative;
+  }
+   */
+  .left {
+    height: 1000px;
+    width: 45px;
+    background-color: #FFE9A0;
+    float: left;
+    position: fixed;
+  }
+  
+  .right {
+    height: 1000px;
+    width: 45px;
+    background-color: #FFE9A0;
+    float: right;
+    position: inherit;
+  }
+  
+  .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 50%;
+    height: 1000px;
+  }
+  
+  p,
+  li {
+    color: black;
+    font-family:'Poppins', sans-serif';
+  }
+  
+  .head {
+    font-size: 20px;
+    color: yellow;
+  }
+  
+  #name {
+    font-family:'Poppins', sans-serif ;
+    float: right;
+    margin-top: 100px;
+    margin-right: 4%;
+  }
+  
+  a {
+    color:red;
+    text-decoration: none;
+  }
+
+.main{
+  width:100%;
+  /* background-color: #FFE9A0; */
+  display: flex;
+  justify-content: space-around;
+}
+/*   
+  @media only screen and (max-width: 430px) {
+    .left,
+    .right {
+      display: none;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+  } */
+  .mypicture{
+   width:50%;
+   margin-top:0px;
+       }
+   .mypicture img{
+   width:100%;
+   height:30%;
+    }
+    

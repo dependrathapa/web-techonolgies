@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Poppins:wght@200&display=swap');
+
+    header {
+        font-weight:bolder;
+         font-family: 'Poppins', sans-serif;
+         background-color:#7971EA;
+         color: #fff;
+         padding: 1em;
+       }
+       footer{
+         font-weight:bolder;
+         font-family: 'Poppins', sans-serif;
+         text-align: center;
+         background-color:#7971EA;
+         color: #fff;
+         padding: 1em;
+       }
+       nav {
+         display: flex;
+         justify-content: center;
+       }
+       nav ul {
+         display: flex;
+         list-style-type: none;
+       }
+       nav li {
+         margin: 0 1em;
+       }
+       nav a {
+         color: #fff;
+         text-decoration: none;
+       }
+       p{
+        /* width: 500px; */
+        font-family: 'Poppins', sans-serif;
+        font-size:33px;
+        /* color:#7286D3; */
+        /* background-color: #C69749; */
+        background-color:rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        color: #fff;
+        box-shadow: 12px 12px 2px 1px rgba(255, 255, 255, 2);
+         }
+         h1{
+          font-size: 42px;
+          color: #A6D1E6;
+          background-color:rgba(0, 0, 0, 0.25);
+         text-align: center;
+         margin-top: 50px;
+         padding: 1em;
+         }
+         body {
+          background-image: url("Screen\ Shot\ 2023-02-01\ at\ 20.33.10.png");
+           background-attachment: fixed;
+          background-size: cover;
+         background-position: center;
+        }
