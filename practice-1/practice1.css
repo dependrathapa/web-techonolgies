@@ -75,6 +75,38 @@
     max-width: 100%;
     margin-top: 1em;  
     box-sizing:inherit
+<<<<<<< HEAD
      }
   
   
+=======
+  }
+  
+  /* Style the contact form */
+  section#contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section#contact label {
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+  section#contact input[type="text"],
+  section#contact input[type="email"],
+  section#contact textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+  }
+  section#contact input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+  }
+  section#contact input[type="submit"]:hover {
+    background-color: #555;
+  }
+>>>>>>> 625035f410ddc192ffd1045fc8757f562ff12271
