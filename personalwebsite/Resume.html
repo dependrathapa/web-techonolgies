@@ -92,7 +92,24 @@
    <div class="stuff">
   <br><br>
   <h1>Resume</h1>
-  <h2>Me Dependra</h2>
+  <style>
+    .color-change{
+        background-color:#FCC2FC;
+        color:#B5F1CC;
+    }
+</style>
+</head>
+<body>
+<h2>TOGGLE TO DARK AND LIGHT MODE</h2>
+<p>click the below button to see the dark mode and light mode</p>
+<button onclick="theme()">Click Me!</button>
+<script>
+    function theme(){
+        var element = document.body;
+        element.classList.toggle("color-change");
+    }
+</script>
+<!-- <script src="js/function.js"></script> -->
   <br>
   <p class="head">Interests</p>
   <ul>
@@ -133,7 +150,7 @@
   <img src="IMG_9606.JPG" alt="Dependra">
   <div>
 </div>
-<script>
+<!-- <script>
   function toggleColor() {
     const body = document.querySelector("body");
     if (body.style.backgroundColor === "white") {
@@ -142,7 +159,7 @@
       body.style.backgroundColor = "white";
     }
   }
-</script>
+</script> -->
  </body>
 <!-- <div class="right"></div>
 <div id="footer">
